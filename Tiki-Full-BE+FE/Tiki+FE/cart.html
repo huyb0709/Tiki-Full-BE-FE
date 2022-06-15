@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.min.css" >
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Tiki</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Start hearder -->
+        <header class="header">
+            <div class="grid wide">
+                <!-- Start header search -->
+                <div class="header__search">
+                    <div class="header__search-logo">
+                        <div class="search__logo-left">
+                            <div class="logo__left-menu">
+                                <div class="style__logo hide-on-mobile-tablet">
+                                    <a href="index.html" class="style__logo-icon">
+                                        <img src="./assets/img/logo.png" alt="logo">
+                                    </a>
+                                </div>
+                                <!-- <div class="style__wrapper">
+                                    <a href="#" class="style__wrapper-menu">
+                                            <img src="./assets/img/header__menu.png" alt="header__menu" class="wrapper__menu-logo">
+                                            <div class="wrapper__menu-list hide-on-mobile-tablet">
+                                            <span>Danh Mục</span>
+                                            <span class="wrapper__text">Sản Phẩm
+                                                <img src="./assets/img/drop_icon.png" alt="drop_icon">
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="style__wrapper-nav">
+                                        <ul class="wrapper__nav-lists">
+                                            <li class="wrapper__nav-items">
+                                                <a href="#" class="nav__items-links">
+                                                    <span class="nav__items-icons">
+                                                        <i class="fas fa-mobile-alt"></i>
+                                                    </span>
+                                                    <span class="nav__items-text">Điện thoại - Máy tính bảng</span>
+                                                </a>
+                                                <div class="nav__items-submenu hide-on-mobile">
+                                                    <ul>
+                                                        <li class="items__submenu-lists">
+                                                            <ul>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="items__submenu-lists">
+                                                            <ul>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="items__submenu-lists">
+                                                            <ul>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="items__submenu-lists">
+                                                            <ul>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                                <li class="submenu__lists-items">Éc éc</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="wrapper__nav-items">
+                                                <a href="#" class="nav__items-links">
+                                                    <span class="nav__items-icons">
+                                                        <i class="fas fa-tv"></i>
+                                                    </span>
+                                                    <span class="nav__items-text">Điện tử - Điện lạnh</span>
+                                                </a>
+                                            </li>
+                                            <li class="wrapper__nav-items">
+                                                <a href="#" class="nav__items-links">
+                                                    <span class="nav__items-icons">
+                                                        <i class="fas fa-headphones"></i>
+                                                    </span>
+                                                    <span class="nav__items-text">Phụ kiện - Thiết bị số</span>
+                                                </a>
+                                            </li>
+                                            <li class="wrapper__nav-items">
+                                                <a href="#" class="nav__items-links">
+                                                    <span class="nav__items-icons">
+                                                        <i class="fas fa-laptop"></i>
+                                                    </span>
+                                                    <span class="nav__items-text">Laptop - Thiết bị IT</span>
+                                                </a>
+                                            </li>
+                                            <li class="wrapper__nav-items">
+                                                <a href="#" class="nav__items-links">
+                                                    <span class="nav__items-icons">
+                                                        <i class="fas fa-camera"></i>
+                                                    </span>
+                                                    <span class="nav__items-text">Máy ảnh - Quay phim</span>
+                                                </a>
+                                            </li>
+                                            <li class="wrapper__nav-items">
+                                                <a href="#" class="nav__items-links">
+                                                    <span class="nav__items-icons">
+                                                        <i class="fas fa-tshirt"></i>
+                                                    </span>
+                                                    <span class="nav__items-text">Thời trang</span>
+                                                </a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <label for="mobile-search-checkbox" class="logo__left-mobile-search">
+                                <i class="mobile__search-icon fas fa-search"></i>
+                            </label>
+                            <input type="checkbox" hidden id="mobile-search-checkbox" class="logo__left-checkbox">
+                            <div class="logo__left-search">
+                                <div class="left__search-form">
+                                    <input type="text" class="search__form-input" placeholder="Tìm sản phẩm, danh mục hoặc thương hiệu mong muốn...">
+                                    <button class="search__form-btn"><img src="./assets/img/search_icon.png" alt="search"class="form__btn-icon">Tìm Kiếm</button>
+                                    <div class="search__form-click">
+                                        <div class="form__click-top">
+                                            <div class="click__top-first">
+                                                <div class="click__top first-lists">
+                                                    <div class="top__first keyword">
+                                                        <a href="#">Đại tiệc Johnson & Johnson</a>
+                                                    </div>
+                                                    <picture> 
+                                                        <img src="https://salt.tikicdn.com/cache/140x28/ts/banner/af/16/ca/8ca728415e01171acfb5c88454747b9e.png.webp" alt="">
+                                                    </picture>
+                                                </div>   
+                                            </div>
+                                            <div class="click__top-second ">
+                                                <a href="#" class="click__top">
+                                                    <img src="./assets/img/load.png" alt="load">
+                                                    <div class="keyword">Máy giặt LG</div>
+                                                    <img src="./assets/img/del.png" alt="delete">
+                                                </a>
+                                                <a href="#" class="click__top">
+                                                    <img src="./assets/img/load.png" alt="load">
+                                                    <div class="keyword">Máy giặt LG2</div>
+                                                    <img src="./assets/img/del.png" alt="delete">
+                                                </a>
+                                                <a href="#" class="click__top">
+                                                    <img src="./assets/img/load.png" alt="load">
+                                                    <div class="keyword">Máy giặt LG3</div>
+                                                    <img src="./assets/img/del.png" alt="delete">
+                                                </a>
+                                                <div class="show__more">
+                                                    <div class="show__more-history">
+                                                        <span>Xem thêm 
+                                                            <i class="fas fa-angle-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="click__top-third hide-on-mobile-tablet">
+                                                <div class="top__third-hotkeyword">
+                                                    <div class="third__hotkeyword-heading">
+                                                        <img src="./assets/img/trend.png" alt="">
+                                                        <div>Tìm kiếm phổ biến</div>
+                                                    </div>
+                                                    <div class="top__third-inner">
+                                                        <a href="" class="top__third-items">
+                                                            <img src="./assets/img/product_1.jpg" alt="product_1">
+                                                            <span class="top__third-title">quần jean nam</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <img src="./assets/img/product_1.jpg" alt="product_1">
+                                                            <span class="top__third-title">quần jean nam1</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <img src="./assets/img/product_1.jpg" alt="product_1">
+                                                            <span class="top__third-title">quần jean nam2</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <img src="./assets/img/product_1.jpg" alt="product_1">
+                                                            <span class="top__third-title">quần jean nam3</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <img src="./assets/img/product_1.jpg" alt="product_1">
+                                                            <span class="top__third-title">quần jean nam4</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <img src="./assets/img/product_1.jpg" alt="product_1">
+                                                            <span class="top__third-title">quần jean nam5</span>
+                                                        </a>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="top__third-hotcategory">
+                                                    <div class="third__hotcategory-heading">
+                                                        Danh Mục Nổi Bật
+                                                    </div>
+                                                    <div class="top__third-inner">
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                        <a href="" class="top__third-items">
+                                                            <div class="third__items-wrap">
+                                                                <div class="items__wrap-thumb">
+                                                                    <img src="./assets/img/product_2.jpg" alt="product_2">
+                                                                </div>
+                                                            </div>
+                                                            <span class="top__third-tile">Máy giặt</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search__logo-middle">
+                            <a href="index.html">
+                                <img src="./assets/img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="search__logo-right">
+                            <div class="logo__right-user">
+                                <button class="right__user-logobtn" id="right__user-logobtn">
+                                    <img src="./assets/img/logo_user.png" alt="logo" class="right__user-icon">
+                                </button>
+                                <button class="right__user-text hide-on-mobile-tablet"  id="right__user-btn">
+                                    <span class="user__text-login">Tài khoản</span>
+                                    <span class="user__text-label">
+                                        <span>Người Dùng?</span>
+                                        <img src="./assets/img/drop_icon.png" alt="drop_icon">
+                                    </span>
+                                </button>
+                                <div class="right__user-modal" id="right__user-modal">
+                                    <div class="right__modal-content">
+                                        <button class="modal__btn-close">
+                                            <img src="https://salt.tikicdn.com/ts/upload/fe/20/d7/6d7764292a847adcffa7251141eb4730.png" alt="">
+                                        </button>
+                                        <div class="modal__content-left">
+                                            <div class="content__left-container">
+                                                <div class="content__left-heading">
+                                                    <h4>Xin chào,</h4>
+                                                    <p>Đăng nhập hoặc Tạo tài khoản</p>
+                                                </div>
+                                                <form action="">
+                                                    <div class="left__heading-input">
+                                                        <input type="tel" name="tel" placeholder="Số điện thoại">
+                                                    </div>
+                                                    <button>Tiếp tục</button>
+                                                </form>
+                                                <button class="content__left-email" id="content__left-email">Đăng nhập bằng email</button>
+                                                <div class="content__left-social">
+                                                    <p class="left__social-heading">Hoặc tiếp tục bằng</p>
+                                                    <ul class="left__social-links">
+                                                        <li class="left__social-item">
+                                                            <img src="https://salt.tikicdn.com/ts/upload/3a/22/45/0f04dc6e4ed55fa62dcb305fd337db6c.png" alt="fb">
+                                                        </li>
+                                                        <li class="left__social-item">
+                                                            <img src="https://salt.tikicdn.com/ts/upload/1c/ac/e8/141c68302262747f5988df2aae7eb161.png" alt="gg">
+                                                        </li>
+                                                        <li class="left__social-item">
+                                                            <img src="https://salt.tikicdn.com/ts/upload/98/37/86/517cfc05f04466b3118357a1fb4182c8.png" alt="zalo">
+                                                        </li>
+                                                    </ul>
+                                                    <p class="left__social-note">Bằng việc tiếp tục, bạn đã chấp nhận
+                                                        <a href="">Điều khoản sử dụng</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal__content-right hide-on-mobile">
+                                            <img src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" alt="">
+                                            <div class="content__right-text">
+                                                <h4>Mua sắm tại tiki</h4>
+                                                <span>Ưu đãi mỗi ngày</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="login__email-modal" id="login__email-modal">
+                                    <div class="email__modal-content">
+                                        <button class="modal__btn-close" id="modal__btn-close2">
+                                            <img src="https://salt.tikicdn.com/ts/upload/fe/20/d7/6d7764292a847adcffa7251141eb4730.png" alt="">
+                                        </button>
+                                        <div class="email__modal-left">
+                                            <div class="email__modal-container">
+                                                <button class="modal__btn-back" id="modal__btn-back">
+                                                    <img src="https://salt.tikicdn.com/ts/upload/0b/43/2f/7c7435e82bce322554bee648e748c82a.png" alt="">
+                                                </button>
+                                                <div class="email__modal-heading">
+                                                    <h4>Đăng nhập bằng email</h4>
+                                                    <p>Nhập email và mật khẩu tài khoản Tiki</p>
+                                                </div>
+                                                <form action="">
+                                                    <div class="email__modal-input">
+                                                        <input type="text" placeholder="abc@gmail.com">
+                                                    </div>
+                                                    <div class="email__modal-input">
+                                                        <input type="password" id="input__password" placeholder="Mật khẩu">
+                                                    </div>
+                                                    <div class="email__modal-showpass">
+                                                        <input type="checkbox" onclick="myFunctionshowpass()">
+                                                        <p>Show pass</p>
+                                                    </div>
+                                                    <button>Đăng nhập</button>
+                                                </form>
+                                                <p class="email__modal-forgotpass">Quên mật khẩu?</p>
+                                                <p class="email__modal-createacc">
+                                                    Chưa có tài khoản?
+                                                    <span>Tạo tài khoản</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal__content-right hide-on-mobile">
+                                            <img src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" alt="">
+                                            <div class="content__right-text">
+                                                <h4>Mua sắm tại tiki</h4>
+                                                <span>Ưu đãi mỗi ngày</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                                <div class="right__user-dropdown">
+                                    <a href="#">
+                                        <p class="user__dropdown-links">Đơn hàng của tôi</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">Thông báo của tôi</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">Tài khoản của tôi</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">Nhận xét sản phẩm đã mua</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">
+                                            <span class="user__dropdown-icon">
+                                                <img src="https://salt.tikicdn.com/ts/upload/5b/70/af/ac0eacaa8ec6738ac474f7bbe767bd75.png" alt="img">
+                                            </span>
+                                            <span class="user__dropdown-content">
+                                                <span>TikiNow</span>
+                                                <span>Thông tin Gói hội Viên</span>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">
+                                            <span class="user__dropdown-icon">
+                                                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/mycoupon/coupon_code.svg" alt="img">
+                                            </span>
+                                            <span class="user__dropdown-content">
+                                                <span>Mã giảm giá</span>
+                                                <span>Bạn đang có 0 mã giảm giá</span>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">
+                                            <span class="user__dropdown-icon">
+                                                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/tikixu.svg" alt="img">
+                                            </span>
+                                            <span class="user__dropdown-content">
+                                                <span>Thông tin Tiki Xu</span>
+                                                <span>Bạn đang có 0 Tiki Xu</span>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">
+                                            <span class="user__dropdown-icon">
+                                                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/bookcare.svg" alt="img">
+                                            </span>
+                                            <span class="user__dropdown-content">
+                                                <span>Thông tin BookCare</span>
+                                                <span>Bạn đang có 0 BookCare</span>
+                                            </span>
+                                        </p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">Đổi trả dễ dàng</p>
+                                    </a>
+                                    <a href="#">
+                                        <p class="user__dropdown-links">Thoát tài khoản</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="logo__right-cart">
+                                <a href="#" class="right__cart-list">
+                                    <div class="right__cart-item">
+                                        <div class="cart__item-wrapper">
+                                            <img src="./assets/img/cart_icon.png" alt="cart">  
+                                            <span class="item__wrapper-circle">2</span>
+                                        </div>
+                                        <span class="cart__item-text hide-on-mobile">Giỏ Hàng</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End header search -->
+                <!-- Start header navbar -->
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <div class="header__navbar-menu">
+                        <a href="#" class="navbar__menu-icon">
+                            <img src="./assets/img/navbar_logo.png" alt="navbar_logo">
+                        </a>
+                        <div class="navbar__menu-links">
+                            <a href="#">tất cả thịt rau củ</a>
+                            <a href="#">thịt</a>
+                            <a href="#">hàng đông lạnh</a>
+                            <a href="#">trái cây</a>
+                            <a href="#">hải sản</a>
+                            <a href="#">gạo</a>
+                        </div>
+                            
+                        <a href="#" class="navbar__menu-seller">
+                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icon-seller.svg" alt="icon-seller">
+                            <span>Bán hàng cùng Tiki</span>
+                        </a>
+                    </div>
+                </nav>
+                <!-- End header navbar -->
+            </div>
+        </header>
+        <!-- End header -->
+        <div class="cart__app">
+            <div class="grid wide">
+                <div class="cart__app-header">
+                    <span class="cart__app-header--message">
+                        <span>
+                            Miễn phí vận chuyển đơn từ 149K của mỗi nhà bán có logo 
+                            <img src="https://salt.tikicdn.com/ts/upload/3d/e3/de/2c71b5485f7335d41cb3c06198035fe3.png" alt="img">
+                        </span>
+                    </span>
+                </div>
+                <div class="cart__app-body">
+                    <div class="cart__app-body--inner">
+                        <div class="cart__style-product">
+                            <h4>GIỎ HÀNG</h4>
+                            <div class="style__product-heading">
+                                <div class="product__heading-row">
+                                    <div class="col-1">
+                                        <label for="" class="product__checkbox">
+                                            <!-- <input type="checkbox" id="" class="checkbox__input">
+                                            <span class="heading__checkbox-fake"></span> -->
+                                            <span class="label">Tất cả(1 sản phẩm)</span>
+                                        </label>
+                                    </div>
+                                    <div class="col-2">Đơn giá</div>
+                                    <div class="col-3">Số lượng</div>
+                                    <div class="col-4">Thành tiền</div>
+                                    <div class="col-5">
+                                        <span class="heading__row-clearall">
+                                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/trash.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="style__product-body">
+                                <div>
+                                    <div class="product__body-component">
+                                        <div class="body__component-seller">
+                                            <div class="component__seller-body">
+                                                <div>
+                                                    <div class="seller__body-item">
+                                                        <div class="body__item-row">
+                                                            <div class="col-1">
+                                                                <div class="item__row-inner">
+                                                                    <div class="row__inner-checkbox">
+                                                                        <label for="" class="product__checkbox">
+                                                                            <input type="checkbox" id="" class="checkbox__input">
+                                                                            <!-- <span class="heading__checkbox-fake"></span> -->
+                                                                        </label>
+                                                                    </div>
+                                                                    <a href="#" class="row__inner-img">
+                                                                        <img src="https://salt.tikicdn.com/cache/200x200/ts/product/f3/ee/36/5cff4a827b2f1e38dc06faa6f4ced6fe.jpg" alt="img">
+                                                                    </a>
+                                                                    <div class="row__inner-content">
+                                                                        <a href="#" class="inner__content-name">Điện Thoại Samsung Galaxy A12 (4GB/128GB) - Hàng Chính Hãng - Xanh Dương</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <span class="item__row-currentprice">3.639.000đ</span>
+                                                                <del class="item__row-discountprice">4.290.000đ</del>
+                                                                <p class="item__row-pricechange hide-on-mobile">
+                                                                    <img src="https://salt.tikicdn.com/ts/upload/28/f3/5f/bfc59c9c6738447aea42855efd3098ac.png" alt="">
+                                                                    Giảm giá 1%
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="seller__quantity-field">
+                                                                    <button class="seller__value-button seller__decrease-button" onclick="decreaseValue(this)">-</button>
+                                                                    <div class="seller__number">1</div>
+                                                                    <button class="seller__value-button seller__increase-button" onclick="increaseValue(this, 10)">+</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <span class="item__row-finalprice">3.369.000đ</span>
+                                                            </div>
+                                                            <div class="col-5">
+                                                                <span class="item__row-clearall">
+                                                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/trash.svg" alt="">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="body__item-row">
+                                                            <div class="col-1">
+                                                                <div class="item__row-inner">
+                                                                    <div class="row__inner-checkbox">
+                                                                        <label for="" class="product__checkbox">
+                                                                            <input type="checkbox" id="" class="checkbox__input">
+                                                                            <!-- <span class="heading__checkbox-fake"></span> -->
+                                                                        </label>
+                                                                    </div>
+                                                                    <a href="#" class="row__inner-img">
+                                                                        <img src="https://salt.tikicdn.com/cache/200x200/ts/product/f3/ee/36/5cff4a827b2f1e38dc06faa6f4ced6fe.jpg" alt="img">
+                                                                    </a>
+                                                                    <div class="row__inner-content">
+                                                                        <a href="#" class="inner__content-name">Điện Thoại Samsung Galaxy A12 (4GB/128GB) - Hàng Chính Hãng - Xanh Dương</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <span class="item__row-currentprice">3.639.000đ</span>
+                                                                <del class="item__row-discountprice">4.290.000đ</del>
+                                                                <p class="item__row-pricechange hide-on-mobile">
+                                                                    <img src="https://salt.tikicdn.com/ts/upload/28/f3/5f/bfc59c9c6738447aea42855efd3098ac.png" alt="">
+                                                                    Giảm giá 1%
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="seller__quantity-field">
+                                                                    <button class="seller__value-button seller__decrease-button" onclick="decreaseValue(this)">-</button>
+                                                                    <div class="seller__number">1</div>
+                                                                    <button class="seller__value-button seller__increase-button" onclick="increaseValue(this, 10)">+</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <span class="item__row-finalprice">3.369.000đ</span>
+                                                            </div>
+                                                            <div class="col-5">
+                                                                <span class="item__row-clearall">
+                                                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/trash.svg" alt="">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart__app-body--totalprice">
+                        <div class="cart__totalprice-inner">
+                            <div class="total__price-head">
+                                <div class="price__head-wrapper">
+                                    <div class="head__wrapper-title">
+                                        <p class="wrapper__title-head">Tiki Khuyến Mãi</p>
+                                        <p class="wrapper__title-coupon">Có thể chọn 2
+                                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/mycoupon/icons-info-gray.svg" alt="img">
+                                        </p>
+                                    </div>
+                                    <div class="head__wrapper-coupon">
+                                        <img src="https://frontend.tikicdn.com/_desktop-next/static/img/mycoupon/coupon_icon.svg" alt="img">
+                                        <span>Chọn hoặc nhập Khuyến mãi </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="total__price-body">
+                                <div class="price__body-wrapper">
+                                    <ul class="body__wrapper-prices">
+                                        <li class="wrapper__prices-item">
+                                            <span class="prices__item-text">Tạm Tính</span>
+                                            <span class="prices__item-text">0đ</span>
+                                        </li>
+                                        <li class="wrapper__prices-item">
+                                            <span class="prices__item-text">Giảm Giá</span>
+                                            <span class="prices__item-text">0đ</span>
+                                        </li>
+                                    </ul>
+                                    <div class="body__wrapper-total">
+                                        <span class="prices__item-text">Tổng Cộng</span>
+                                        <div class="wrapper__total-content">
+                                            <div class="total__content-value">Vui lòng chọn sản phẩm</div>
+                                            <span class="total__content-note">(Đã bao gồm VAT nếu có)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="body__wrapper-submit">Mua Hàng (0)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer -->
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6"> 
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item"> 
+                                <a href="" class="footer-item__link">Éc Éc Éc</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6"> 
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">Éc Éc Éc</a>
+                            </li>
+                            <li class="footer-item"></li>
+                                <a href="" class="footer-item__link"> Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6"> 
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item"> 
+                            <a href="" class="footer-item__link">Éc Éc Éc</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6"> 
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-linkedin"></i>
+                                    Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12"> 
+                        <h3 class="footer__heading">Cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/playstore.png" alt="Google-play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">                                    
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/appstore.png" alt="App-store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">Bản quyền thuộc về HuyBui</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/cart.js"></script>
+    </div>
+</body>
+</html>
